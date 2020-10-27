@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Login from '../views/Login.vue'
 import NotFound from '../views/404.vue'
 import Main from '../views/Main.vue'
+import Dashboard from '../views/Dashboard.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,11 @@ const routes = [
       {
         path: '/sub-product/*',
         name: 'sub-product'
+      },
+      {
+        path: '/',
+        name: 'Dashboard',
+        component: Dashboard
       }
     ]
   }

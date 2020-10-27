@@ -6,14 +6,16 @@
     </div>
     <div class="container">
       <div class="sidebar"></div>
-      <div id="subapp-viewport"></div>
+      <div id="subapp-viewport">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Login'
+  name: 'Main'
 }
 </script>
 
